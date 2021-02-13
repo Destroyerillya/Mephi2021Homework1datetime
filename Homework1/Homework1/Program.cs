@@ -6,8 +6,7 @@ namespace Homework1
     {
         static void Main(string[] args)
         {
-            DateTime thisDay = DateTime.Now;
-            Console.WriteLine(thisDay.ToString());
+            Console.WriteLine(DateTime.Now.ToString("dddd, dd MMMM yyyy HH:mm:ss"));
         }
     }
 }
